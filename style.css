@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+.offset::before{
+    content: "";
+    display: block;
+    height: 3rem;
+}
+
+/* ------------  Navigation Section  -------------  */
+.navbar {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    background: rgba(0, 0, 0, 0.6) !important;
+}
+
+.navbar-nav {
+    margin: 10px 0;
+}
+
+.navbar-nav .nav-item {
+    padding-left: 20px;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:hover {
+    color: #1ebba3 !important;
+}
+.fa-bars{
+    color:#fff;
+    font-size: 28px !important;
+}
+.navbar .navbar-toggler{
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+#home{
+    position: relative;
+}
+/* ------------  heading-content  -------------  */
+.heading-content {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.heading-content h5 {
+    font-size: 4em;
+    font-weight: 300;
+    color: #fff;
+    font-family: monospace;
+}
+
+.heading-content h1 {
+    font-size: 5em;
+    font-weight: bolder;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.heading-content p {
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: #ccc;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+/* ------------  About Section  -------------  */
+#about .btn {
+    border: 2px solid transparent;
+    padding: 15px 22px;
+    background: #000;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#about .btn a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    word-spacing: 0.2em;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+#about .btn:hover {
+    border: 2px solid #1ebba3;
+    cursor: pointer;
+}
+
+
+/* ------------  Service Section  -------------  */
+#service .btn-dark {
+    box-shadow: none;
+}
+
+#service .card .btn-dark:hover {
+    color: #1ebba3;
+}
+#service .card .btn {
+    border: 2px solid transparent;
+    padding: 8px 11px;
+    background: #000;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+#service .btn {
+    border: 2px solid transparent;
+    padding: 15px 22px;
+    background: #000;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#service .btn a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    word-spacing: 0.2em;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+#service .btn:hover {
+    border: 2px solid #1ebba3;
+    color:#1ebba3;
+    cursor: pointer;
+}
+
+/* ------------  Newsletter Section  -------------  */
+.sec1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #f8fafb;
+}   
+
+.sec1 h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 50px;
+}
+
+.sec1 p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    line-height: 50px;
+}
+
+.sec1 input{
+    box-shadow: none !important;
+}
+/* ------------  Contact Section  -------------  */
+
+#contact input{
+    box-shadow: none;
+}
+#contact textarea{
+    box-shadow: none;
+}
+
+
+
+
+/* ------------  Footer Section  -------------  */
+
+
+footer .margin-footer {
+    margin-left: 14%;
+}
+
+.col_white_amrc {
+    color: #FFF;
+}
+
+footer {
+    width: 100%;
+    background-color: #263238;
+    min-height: 250px;
+    padding: 10px 0px 25px 0px;
+}
+
+.pt2 {
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+
+footer p {
+    font-size: 13px;
+    color: #CCC;
+    padding-bottom: 0px;
+    margin-bottom: 8px;
+}
+
+.mb10 {
+    padding-bottom: 15px;
+}
+
+.footer_ul_amrc {
+    margin: 0px;
+    list-style-type: none;
+    font-size: 14px;
+    padding: 0px 0px 10px 0px;
+}
+
+.footer_ul_amrc li {
+    padding: 0px 0px 5px 0px;
+}
+
+.footer_ul_amrc li a {
+    color: #CCC;
+}
+
+.footer_ul_amrc li a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.fleft {
+    float: left;
+}
+
+.padding-right {
+    padding-right: 10px;
+}
+
+.footer_ul2_amrc {
+    margin: 0px;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.footer_ul2_amrc li p {
+    display: table;
+}
+
+.footer_ul2_amrc li a:hover {
+    text-decoration: none;
+}
+
+.footer_ul2_amrc li i {
+    margin-top: 5px;
+}
+
+.bottom_border {
+    border-bottom: 1px solid #323f45;
+    padding-bottom: 20px;
+}
+
+.foote_bottom_ul_amrc {
+    list-style-type: none;
+    padding: 0px;
+    display: table;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+}
+
+.foote_bottom_ul_amrc li {
+    display: inline;
+}
+
+.foote_bottom_ul_amrc li a {
+    color: #999;
+    margin: 0 12px;
+}
+
+.social_footer_ul {
+    display: table;
+    margin: 15px auto 0 auto;
+    list-style-type: none;
+}
+
+.social_footer_ul li {
+    padding-left: 20px;
+    padding-top: 10px;
+    float: left;
+}
+
+.social_footer_ul li a {
+    color: #CCC;
+    border: 1px solid #CCC;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.social_footer_ul li i {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+
+/* ------------  Media Queries  -------------  */
+
+
+@media screen and (max-width:768px) {
+    /* ------------ Tablets -------------  */
+    .navbar {
+        letter-spacing: 0.1rem;
+        padding: 10px 0;
+    }
+    .heading-content h5 {
+        font-size: 2.5em;
+       
+    }
+    
+    .heading-content h1 {
+        font-size: 3.5em;
+    
+    }
+    
+    .heading-content p {
+        font-size: 0.8em;
+        
+    }
+
+    .post-heading h3{
+        font-size: 2.5rem;
+    }
+
+    .sec1 h2 {
+        letter-spacing: 2px;
+        line-height: 40px;
+    }
+    
+    .sec1 p {
+        letter-spacing: 0px;
+        line-height: 30px;
+    }
+    
+    
+}
+
+@media screen and (max-width:479px) {
+    /* ------------ Smartphones -------------  */
+    .navbar {
+        letter-spacing: 0.05rem;
+        padding: 5px 0;
+    }
+    .navbar .navbar-nav .nav-link{
+        padding:0.3rem 1rem;
+    }
+    .heading-content h5 {
+        font-size: 1.5em;
+    }
+    
+    .heading-content h1 {
+        font-size: 2em;
+    
+    }
+    
+    .heading-content p {
+        font-size: 0.5em;
+        
+    }
+    .post-heading h3{
+        font-size: 2em;
+    }
+
+    #service .btn{
+        width: 40% !important;
+        padding: 10px 15px;
+    
+    }
+    #service .card .btn {
+        padding: 5px 8px;
+        
+    }
+        
+    
+    .sec1 h2 {
+        font-size: 28px;
+    }
+    
+    .sec1 p {
+        font-size: 15px;
+    }
+
+    .sec1 .btn{
+        margin-left: 0 !important;
+        margin-top: 2%;
+    }
+    
+}
